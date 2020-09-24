@@ -1,0 +1,145 @@
+body {
+  background: antiquewhite;
+}
+.calendar{
+  max-height: 1px;
+}
+@media only screen and (min-width: 768px){
+  .sidebar__wrap{
+    width: 100%;
+  }
+}
+.chart {
+  margin-top: 5%;
+}
+.fa-search{
+  font-size: 24px;
+  font-weight: 700;
+  color: blueviolet;
+}
+.chart_wrap {
+  margin: 0 auto;
+  display: flex;
+  margin: 2% 17%;
+}
+.wrap_search {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+.search {
+  font-size: 16px;
+  font-weight: 700;
+  color: blueviolet;
+}
+.wrap_header {
+  display: flex;
+  flex-direction: row;
+}
+p.header_item.highlight {
+  display: flex;
+  justify-items: flex-end;
+}
+.wrap_connected{
+  color: antiquewhite;
+  padding: 0 15px;
+}
+.MuiTabs-flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+#pas{
+  width: 100%;
+  height: 100%;
+}
+/*header*/
+.wrapperFloor {
+  margin: 5% -8%;
+  position: relative;
+}
+.wrap {
+  margin: 0% 10%;
+}
+.sidebarContent {
+  padding-top: 10%;
+}
+li.colorOneStep{
+  background: linear-gradient(-90deg, #7F0099, #0059B3);
+ margin: 1% 3%;
+ color: antiquewhite; 
+}
+li.colorTwoStep{
+  background: linear-gradient(30deg, #7F0099, #0059B3);
+  color: antiquewhite;
+}
+.header{
+  padding: 3% 9% 1% 8%;
+	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(30deg, #7F0099, #0059B3);
+	margin-bottom: 2%;
+}
+.header__item{
+  color: antiquewhite;
+}
+.highlight {
+  font-size: 20px;
+ color: darkorange;
+  word-break: break-word;
+  font-weight: 600;
+}
+/*header*/
+.sidebar__wrap {
+  margin: 0 0 0 5%;
+}
+/*footer*/
+
+.fa.fa-heart {
+	color: red;
+}
+.footer {
+  text-align: center;
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(-90deg, #7F0099, #0059B3);
+}
+.footer-text {
+  font-size: 20px;
+  color: orange;
+  padding: 1%;
+}
+
+
+/*floor*/
+
+@media screen and (max-width: 768px){
+  .side__bar {
+    width: 100%;
+  }
+  #content__map{
+    margin-top: 10%;
+  }
+  }
+@media screen and (min-width: 1024px){
+  #content__map{
+    left: 40%;
+    top: 10%;
+  }
+  .side__bar {
+    width: 23%;
+    margin: 2% 13% 5% 10%;
+  }
+}
+
+    .err{
+      color: red;
+      text-align: center
+    }
+    .valid {
+      color: green;
+    }
+
+
